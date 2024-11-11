@@ -1,7 +1,7 @@
 import type { ProductsListApiResponse } from '~/dtos/Product';
 
 export const useProducListService = () => {
-  const { data, fetchData, loading } = useFetch<ProductsListApiResponse>();
+  const { data, fetchData, loading } = useCustomFetch<ProductsListApiResponse>();
 
   const fetchProductList = async (categoryId=0) => {
     const queryParams=categoryId?`?categoryId=${categoryId}`:""

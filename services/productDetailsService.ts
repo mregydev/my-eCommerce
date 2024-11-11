@@ -1,7 +1,6 @@
 import type { ProductsDetailsApiResponse } from '~/dtos/Product';
-
 export const useProductDetailsService = () => {
-  const { data, fetchData, loading } = useFetch<ProductsDetailsApiResponse>();
+  const { data, fetchData, loading } = useCustomFetch<ProductsDetailsApiResponse>();
 
   const fetchProductDetails = async (productId:number) => {
     
