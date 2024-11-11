@@ -28,9 +28,9 @@ Ensures that all components and interactions are accessible, adhering to web acc
 Optimized navigation and usability for all users, including those relying on assistive technologies.
 
 ## Component Testing with Jest:
-Integrates Jest for simple, efficient component testing.
+Uses Vitest for simple, efficient component testing.
 Uses @testing-library/jest-dom for assertion, ensuring UI components behave as expected and improving maintainability.
 
 ## Abstract Data Access Layer:
-Contains an abstracted data access layer to handle entities generically, enabling easy extension and reuse across different parts of the application.
+Contains a custom created abstracted data access layer to handle entities generically, enabling easy extension and reuse across different parts of the application.
 Makes it straightforward to connect to different data sources or backends without modifying the core logic.
