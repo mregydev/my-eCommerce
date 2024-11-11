@@ -32,5 +32,4 @@ Uses Vitest for simple, efficient component testing.
 Uses @testing-library/jest-dom for assertion, ensuring UI components behave as expected and improving maintainability.
 
 ## Abstract Data Access Layer:
-Contains a custom created abstracted data access layer to handle entities generically, enabling easy extension and reuse across different parts of the application.
-Makes it straightforward to connect to different data sources or backends without modifying the core logic.
+Contains a custom created abstracted data access layer to handle entities generically, enabling easy extension and reuse across different parts of the application. I prefered creating custom composable for data access instead of using nuxt  usefetch one for practice

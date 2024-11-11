@@ -1,4 +1,4 @@
-// We can use vueuse one but prefered custom implm entation just for practise 
+// We can use vueuse one but prefered custom implm entation just for practice 
 
 export function useDebounce(func: Function, timeout: number) {
   const timer = ref(null);

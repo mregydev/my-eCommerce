@@ -6,7 +6,7 @@ export interface FetchParams {
   options?: AxiosRequestConfig;
 }
 
-// prefered to have custom implementation for practise instead of using nuxt useFetch for practise
+// prefered to have custom implementation  instead of using nuxt useFetch for practice
 export function useCustomFetch<T>() {
   const data = ref<T>();
   const error = ref();
