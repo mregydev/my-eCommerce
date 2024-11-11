@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Stylish Jeans",
+    "description": "Crafted from premium stretch denim, these jeans offer a comfortable fit that moves with you. The classic mid-rise cut and versatile wash make them perfect for any occasion",
+    "price": "100",
+    "quantity": 10,
+    "rating": 3,
+    "seller": "MountainPeak",
+    "category": "1",
+    "logo": "https://img.freepik.com/free-photo/jeans_1203-8092.jpg?t=st=1731251171~exp=1731254771~hmac=48fd232f2e16a997112379b79c9774429f09e5828f7851b8329383c4d3b70ed0&w=1060",
+    "image": "https://img.freepik.com/free-photo/jeans_1203-8092.jpg?t=st=1731251171~exp=1731254771~hmac=48fd232f2e16a997112379b79c9774429f09e5828f7851b8329383c4d3b70ed0&w=1060"
+  },
+  {
+    "id": 2,
+    "name": "Stylish shirt",
+    "description": "Crafted from premium stretch denim, these jeans offer a comfortable fit that moves with you. The classic mid-rise cut and versatile wash make them perfect for any occasion",
+    "price": "100",
+    "quantity": 10,
+    "rating": 3,
+    "seller": "MountainPeak",
+    "category": "3",
+    "logo": "https://img.freepik.com/free-vector/front-t-shirt-with-stingray-pattern_1308-59281.jpg?t=st=1731251412~exp=1731255012~hmac=b44f3a36d97c29c5d40fdd1f39d491db3d5a2104fddf448954845427302d0a1a&w=1380",
+    "image": "https://img.freepik.com/free-vector/front-t-shirt-with-stingray-pattern_1308-59281.jpg?t=st=1731251412~exp=1731255012~hmac=b44f3a36d97c29c5d40fdd1f39d491db3d5a2104fddf448954845427302d0a1a&w=1380"
+  },
+  {
+    "id": 3,
+    "name": "Jacket",
+    "description": "Crafted from premium stretch denim, these jeans offer a comfortable fit that moves with you. The classic mid-rise cut and versatile wash make them perfect for any occasion",
+    "price": "100",
+    "quantity": 10,
+    "rating": 2,
+    "seller": "MountainPeak",
+    "category": "4",
+    "logo": "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745029.jpg?t=st=1731252110~exp=1731255710~hmac=867af8ff9f20b1cf0d2420df41bb261f2c1fb72f69fa3329523b4e0ac4639f12&w=1800",
+    "image": "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745029.jpg?t=st=1731252110~exp=1731255710~hmac=867af8ff9f20b1cf0d2420df41bb261f2c1fb72f69fa3329523b4e0ac4639f12&w=1800"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "description": "Crafted from premium stretch denim, these jeans offer a comfortable fit that moves with you. The classic mid-rise cut and versatile wash make them perfect for any occasion",
+    "price": "100",
+    "quantity": "10",
+    "rating": 2,
+    "seller": "ShoesStore",
+    "category": "2",
+    "logo": "https://img.freepik.com/free-photo/men-shoes_1203-7417.jpg?t=st=1731252221~exp=1731255821~hmac=26b355a9072d3335fc6daf66a4cbe745b645dfcf9659d49ba33164eb29d0c7a7&w=1800",
+    "image": "https://img.freepik.com/free-photo/men-shoes_1203-7417.jpg?t=st=1731252221~exp=1731255821~hmac=26b355a9072d3335fc6daf66a4cbe745b645dfcf9659d49ba33164eb29d0c7a7&w=1800"
+  },
+  {
+    "id": 5,
+    "name": "Jacket 2",
+    "description": "Crafted from premium stretch denim, these jeans offer a comfortable fit that moves with you. The classic mid-rise cut and versatile wash make them perfect for any occasion",
+    "price": "100",
+    "quantity": 10,
+    "rating": 2,
+    "seller": "MountainPeak",
+    "category": "4",
+    "logo": "https://img.freepik.com/free-vector/front-bomber-jacket-with-penguin-pattern_1308-61531.jpg?t=st=1731286595~exp=1731290195~hmac=2fbb94c313144a9643af9075cbc744fc07fce657753be469d2205b62709c8d62&w=1060",
+    "image": "https://img.freepik.com/free-vector/front-bomber-jacket-with-penguin-pattern_1308-61531.jpg?t=st=1731286595~exp=1731290195~hmac=2fbb94c313144a9643af9075cbc744fc07fce657753be469d2205b62709c8d62&w=1060"
+  },
+  {
+    "id": 6,
+    "name": "Shoes 2",
+    "description": "Crafted from premium stretch denim, these jeans offer a comfortable fit that moves with you. The classic mid-rise cut and versatile wash make them perfect for any occasion",
+    "price": "100",
+    "quantity": "10",
+    "rating": 2,
+    "seller": "ShoesStore",
+    "category": "2",
+    "logo": "https://img.freepik.com/free-photo/shoes_1203-8153.jpg?t=st=1731286552~exp=1731290152~hmac=5255b4c742bd8b8d0a5abaac414b1a465d6c05fa3ac920c6fabe78199e8c481c&w=1800",
+    "image": "https://img.freepik.com/free-photo/shoes_1203-8153.jpg?t=st=1731286552~exp=1731290152~hmac=5255b4c742bd8b8d0a5abaac414b1a465d6c05fa3ac920c6fabe78199e8c481c&w=1800"
+  }
+]
