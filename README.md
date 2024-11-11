@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# Simple Ecommerce App  ( Search and PDP pages ) 
+- Open the Application: https://my-e-commerce-rouge.vercel.app/
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Search Functionality:
+- Search for "shoes" or other categories.
+- Filter by Category: Try filtering directly via SSR by opening this link, which automatically filters search results for category ID 2.
+  
+## Product Details Page (PDP):
+- Click on any item from the search results to load the Product Details Page (PDP) as an SPA.
+- SSR Example: Load the PDP directly via SSR by opening this link.
 
-## Setup
 
-Make sure to install dependencies:
+## Archeticture Link
+https://miro.com/app/board/uXjVLJS7wv8=/?share_link_id=946123473509
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
 
-# yarn
-yarn install
+## Features
+## Mixed rendering mechanism 
+Our eCommerce application uses a mixed rendering approach, dynamically switching between Single-Page Application (SPA) and Multi-Page Application (MPA) rendering based on the user’s workflow to optimize both performance and user experience.
 
-# bun
-bun install
-```
+## Enhanced Search Functionality:
+Supports category-based search with a custom debounced function that efficiently fetches products as the user inputs a category.
+Debouncing is custom-implemented, minimizing unnecessary API calls and enhancing performance for real-time searches.
 
-## Development Server
+## Accessibility-First Approach:
+Ensures that all components and interactions are accessible, adhering to web accessibility standards.
+Optimized navigation and usability for all users, including those relying on assistive technologies.
 
-Start the development server on `http://localhost:3000`:
+## Component Testing with Jest:
+Integrates Jest for simple, efficient component testing.
+Uses @testing-library/jest-dom for assertion, ensuring UI components behave as expected and improving maintainability.
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Abstract Data Access Layer:
+Contains an abstracted data access layer to handle entities generically, enabling easy extension and reuse across different parts of the application.
+Makes it straightforward to connect to different data sources or backends without modifying the core logic.
