@@ -2,9 +2,13 @@
   <div class="app-container">
     <header>
       <NuxtLink class="site-name" to="/"><span class="my-logo">My</span>Ecommerce</NuxtLink>
+      
       <ClientOnly>
         <FilterComponent></FilterComponent>
       </ClientOnly>
+
+      <NuxtLink class="github-link" to="https://github.com/mregydev/my-eCommerce"><VIcon center>mdi-github</VIcon> Github</NuxtLink>
+      
     </header>
     
     <div class="page-container">
@@ -45,7 +49,7 @@ footer {
   background: lightgray;
 }
 
-.site-name {
+.site-name , .github-link {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
@@ -53,6 +57,11 @@ footer {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.github-link
+{
+  margin-right: 1rem;
+  font-size: .9rem;
+}
 .my-logo {
   background: #e74c3c;
   border-radius: 50%;
