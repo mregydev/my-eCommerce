@@ -44,7 +44,7 @@ const router = useRoute();
 await useAsyncData('product', () => {
   const productId = router.params.id;
   return fetchProductDetails(productId ? parseInt(productId.toString()) : 0)
-}, { server: true })
+})
 
 // set meta on server side to avoid reactivity overhead on clientside
 useServerHead({

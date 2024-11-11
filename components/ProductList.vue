@@ -32,10 +32,10 @@ const router = useRouter();
 
 
 //only on server side
-useAsyncData('products', () => {
+await useAsyncData('products', () => {
   const newCategoryId = router.currentRoute.value.query.category;
   return fetchProductList(newCategoryId ? parseInt(newCategoryId.toString()) : 0)
-}, { server: true })
+})
 
 // fetch only on client side when coming from client navigation
 onBeforeRouteUpdate(async () => {
